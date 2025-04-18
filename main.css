@@ -1,0 +1,40 @@
+:root {
+    --theme-bg: black;
+    --theme-fg: #DDD;
+    --theme-accent: #AAA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    line-height: 1;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--theme-bg);
+    color: var(--theme-fg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.time {
+    font-size: min(30vh, 15vw);
+}
+
+.day,
+.date {
+    font-size: min(10vh, 5vw);
+}
+
+.day,
+.date,
+.special-char {
+    color: var(--theme-accent);
+}

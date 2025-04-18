@@ -1,0 +1,35 @@
+.theme-amoled {
+    --theme-bg: black;
+    --theme-fg: #DDD;
+    --theme-accent: #AAA;
+}
+
+.theme-orange {
+    --theme-bg: #0D0D0D;
+    --theme-fg: #F27D16;
+    --theme-accent: #BF9663;
+}
+
+.theme-dark {
+    --theme-bg: #333;
+    --theme-fg: #DDD;
+    --theme-accent: #AAA;
+}
+
+.theme-red {
+    --theme-bg: #262626;
+    --theme-fg: #F25244;
+    --theme-accent: #F28379;
+}
+
+.theme-illustration {
+    --theme-bg: #012340;
+    --theme-fg: #D93D04;
+    --theme-accent: #F2B544;
+}
+
+.theme-bright {
+    --theme-bg: #AAA;
+    --theme-fg: black;
+    --theme-accent: #222;
+}
